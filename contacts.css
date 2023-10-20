@@ -35,4 +35,6 @@
 .menu a:hover{
     background-color: green;
     color: white;
+    font-size: x-large;
+    transition: 0.25s;
 }

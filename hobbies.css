@@ -1,6 +1,7 @@
 *{
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    color: navy;
 }
 
 .header{
@@ -34,4 +35,13 @@
 
 .menu a:hover{
     background-color: deepskyblue;
+    font-size: x-large;
+    transition: 0.25s;
+}
+
+.img{
+    clip-path: circle(45% at 45% 45%);
+    margin-left: 400px;
+    float: right;
+    margin-top: -180px;
 }

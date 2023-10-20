@@ -5,6 +5,7 @@
     font-style: normal;
     font-size: x-large;
     margin: 10px;
+    box-sizing: border-box;
 }
 
 .header{
@@ -16,7 +17,7 @@
 
 .body{
     background-image: url(web/background.jpg);
-    background-size: 500px;
+    background-size: 100%;
     background-position: center;
 }
 
@@ -25,53 +26,78 @@
     height: 500px;
 }
 
-.nav{
-    color: aqua;
-}
-
-
-.nav ul li{
-    list-style-type: none;
-    display: inline-block;
-    width: 200px;
-    margin: 5px;
-
-
-}
-
-
-.nav ul li a{
-    text-decoration: none;
-    background-color: gold;
-    color: green;
-    display: block;
+.menu{
+    background: blue;
     text-align: center;
-    font-size: 20px;
-    padding: 15px 15px;
+    margin: -20px;
+    padding: -20px;
 }
 
-.nav ul li a:hover{
+.menu ul{
+    display: inline-flex;
+    list-style: none;
+   
+
+}
+
+.menu ul li a:hover{
     background-color: black;
     color: yellow;
+    border-inline-start-style: solid;
+    font-size: xx-large;
+    transition: 0.25s;
 }
 
-.nav .fa{
-    margin-right: 5px;
+
+.menu ul li{
+    width: 200px;
+    margin: -10px;
+    padding: 5px;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.menu .fa{
+    margin-right: 8px;
     
 }
 
-.nav .fa_social{
-    margin-right: 5px;
+.submenu{
+    display: none;
 }
 
-.ul li ul.dropdown li{
-    display: inline-flex;
-} 
-
-.selectedlink{
-    background-color: green;
-    color: yellow;
+.menu ul li:hover .submenu{
+    display: block;
+    position: absolute;
+    background-color: blue;
+    margin-top: -5px;
 }
+
+.menu ul li:hover .submenu ul{
+    display: block;
+    margin: 10px;
+}
+
+.menu ul li:hover .submenu ul li{
+    width: 170px;
+    padding: 10px;
+    border-bottom: 1px dotted white;
+    background: transparent;
+    border-radius: 0;
+    text-align: center;
+}
+
+.menu ul li:hover .submenu ul li a:hover{
+    color: green;
+    background-color: white;
+    font-size: 25px;
+}
+
+
 
 .profilediv{
     margin-left: 30%;
@@ -82,7 +108,7 @@
 
 .profilepicdiv{
     float: left;
-    margin-top: -32%;
+    margin-top: -28%;
     
 
 }
@@ -91,16 +117,17 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     text-align: center;
     color: white;
-    font-size: xx-large;
+    font-size: xxx-large;
 }
 
 .h2{
     color: red;
     font-style: italic;
     font-size: larger;
-    background-color: rgba(211, 211, 211, 0.349);
+    background-color: rgba(211, 211, 211, 0.479);
     width: fit-content;
     text-align: center;
+    margin-top: 4%;
     
 }
 
@@ -121,35 +148,6 @@
     padding-top: 50px;
 }
 
-.about_social{
-    display: none;
-}
-
-.nav ul li:hover .about_social{
-    display: block;
-    position: absolute;
-    background-color: greenyellow;
-    margin-top: -10px;
-    margin-left: -1px;
-}
-
-.nav ul li:hover .about_social ul {
-    display: block;
-    margin: -25px;
-}
-
-.nav ul li:hover .about_social ul li{
-    width: 150px;
-    padding: 5px;
-    background: transparent;
-    text-align: left;
-}
-
-.nav ul li a:hover .about_social{
-    color: green;
-    background-color: white;
-
-}
 
 
 

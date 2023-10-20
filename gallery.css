@@ -10,7 +10,7 @@
     
 }
 .body{
-    background-color: white;
+    background-color: pink;
 }
 
 .h1{
@@ -32,5 +32,23 @@
 
 .menu a:hover{
     background-color: hotpink;
+    font-size: x-large;
+    transition: 0.25s;
+}
+
+.image{
+    width: 300px;
+}
+
+.div1{
+    float: left;
+}
+
+.div2{
+    float: right;
+}
+
+.div3{
+    float: middle;
 }
 
