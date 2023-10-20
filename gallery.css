@@ -1,0 +1,36 @@
+*{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 5px;
+}
+.header{
+    background-color: rgb(255, 105, 193);
+    padding: 30px;
+    margin: -10px;
+    margin-top: -10px;
+    
+}
+.body{
+    background-color: white;
+}
+
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: xx-large;
+}
+
+.menu{
+    color: blue;
+
+}
+
+.menu a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.menu a:hover{
+    background-color: hotpink;
+}
+
