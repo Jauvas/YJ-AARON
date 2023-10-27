@@ -1,6 +1,7 @@
 *{
     margin: 5px;
     font-family: Arial, Helvetica, sans-serif;
+    color: green;
 }
 
 .header{
@@ -37,4 +38,19 @@
     color: white;
     font-size: x-large;
     transition: 0.25s;
+}
+
+.active{
+    color: blueviolet;
+}
+
+
+.contacts{
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display: block;
+}
+
+.contacts ul{
+    color: yellow;
 }

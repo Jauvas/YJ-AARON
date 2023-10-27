@@ -36,8 +36,13 @@
     transition: 0.25s;
 }
 
+.active{
+    color: hotpink;
+}
+
 .image{
     width: 300px;
+    border-radius: 50%;
 }
 
 .div1{

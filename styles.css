@@ -12,6 +12,7 @@
     background-color: blue;
     padding: 25px;
     margin: -20px;
+    background-size: 100%;
     
 }
 
@@ -28,7 +29,8 @@
 
 .menu{
     background: blue;
-    text-align: center;
+    background-size: 100%;
+    text-align: left;
     margin: -20px;
     padding: -20px;
 }
@@ -62,7 +64,7 @@
 
 
 .menu .fa{
-    margin-right: 8px;
+    margin-right: 10px;
     
 }
 
@@ -97,17 +99,20 @@
     font-size: 25px;
 }
 
-
+.active{
+    color: red;
+}
 
 .profilediv{
     margin-left: 30%;
     margin-top: 7%;
     background-color: rgba(211, 211, 211, 0.603);
+    float: right 70%;
     
 }
 
 .profilepicdiv{
-    float: left;
+    float: left 30%;
     margin-top: -28%;
     
 
