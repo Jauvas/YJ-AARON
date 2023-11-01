@@ -37,6 +37,7 @@
     background-color: deepskyblue;
     font-size: x-large;
     transition: 0.25s;
+    color: blue;
 }
 
 .active{
