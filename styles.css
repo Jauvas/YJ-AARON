@@ -107,7 +107,6 @@
 }
 
 .profilediv{
-    margin-left: 30%;
     margin-top: 7%;
     background-color: rgba(211, 211, 211, 0.603);
     float: right 60%;
@@ -155,6 +154,7 @@
 
 .educationdiv{
     padding-top: 50px;
+    width: 60%;
 }
 
 
