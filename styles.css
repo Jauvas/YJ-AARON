@@ -98,7 +98,7 @@
 .menu ul li:hover .submenu ul li{
     width: 170px;
     padding: 10px;
-    border-bottom: 1px dotted white;
+    border-bottom: dotted white;
     background: transparent;
     border-radius: 0;
     text-align: center;
@@ -229,7 +229,7 @@
     .menu ul li:hover .submenu ul li{
         width: 170px;
         padding: 10px;
-        border-bottom: 1px dotted white;
+        border-bottom: dotted white;
         background: transparent;
         border-radius: 0;
         text-align: center;
@@ -392,7 +392,7 @@
 
     .profilediv{
         margin-top: 7%;
-        background-color: rgba(245, 222, 179, 0.733);
+        background-color: rgba(128, 128, 128, 0.432);
         width: 1020px;
         
     }
@@ -527,6 +527,95 @@
         text-decoration: none;
         color: white;
         font-size: 45px;
+    }
+
+    .menu ul li:hover .submenu ul li{
+        width: 200px;
+        border-bottom: dotted white;
+        text-align: left;
+    }
+
+    .menu ul li:hover .submenu ul li a:hover{
+        color: green;
+        background-color: white;
+        font-size: 25px;
+    }
+
+    .h2{
+        font-size: 90px;
+    }
+
+    .profilediv{
+        margin-top: 25px;
+        background-color: rgba(128, 128, 128, 0.575);
+        width: 1430px;
+        
+    }
+    .pid{
+        font-size: 50px;
+    }
+
+    .td{
+        font-size: 50px;
+    }
+
+    .th{
+        font-size: 80px;
+    }
+
+}
+
+@media (max-width: 1440px){
+    .header{
+        background-color: blue;
+        background-size: 2580px;
+        width: 2580px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: 150px;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 2580px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+
+    .menu ul li{
+        width: 900px;
+        font-size: 10px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 45px;
+    }
+
+    .menu ul li:hover .submenu ul li{
+        width: 200px;
+        border-bottom: dotted white;
+        text-align: left;
+    }
+
+    .menu ul li:hover .submenu ul li a:hover{
+        color: green;
+        background-color: white;
+        font-size: 25px;
     }
 
     .h2{
