@@ -241,6 +241,221 @@
     
 }
 
+@media (max-width: 415px){
+    .header{
+        background-color: blue;
+        background-size: 430px;
+        width: 430px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 430px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+
+    .menu ul li{
+        width: 70px;
+        font-size: 10px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 450px){
+    .header{
+        background-color: blue;
+        background-size: 450px;
+        width: 450px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 450px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+
+    .menu ul li{
+        width: 70px;
+        font-size: 15px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 20px;
+    }
+
+}
+
+@media (max-width: 770px){
+    .header{
+        background-color: blue;
+        background-size: 790px;
+        width: 790px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 790px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+
+    .menu ul li{
+        width: 114px;
+        font-size: 10px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 850px){
+    .header{
+        background-color: blue;
+        background-size: 850px;
+        width: 850px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: 45px;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 850px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+
+    .menu ul li{
+        width: 180px;
+        font-size: 10px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 1025px){
+    .header{
+        background-color: blue;
+        background-size: 1035px;
+        width: 1035px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: 50px;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 1035px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+
+    .menu ul li{
+        width: 200px;
+        font-size: 10px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 42px;
+    }
+
+}
+
 
 
 
