@@ -17,6 +17,13 @@
     
 }
 
+.h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    color: white;
+    font-size: xxx-large;
+}
+
 .body{
     background-image: url(background.jpg);
     background-size: 100%;
@@ -49,7 +56,7 @@
     background-color: black;
     color: yellow;
     font-size: xx-large;
-    transition: 0.25s;
+    transition: 0.5s;
 }
 
 
@@ -120,13 +127,6 @@
 
 }
 
-.h1{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    text-align: center;
-    color: white;
-    font-size: xxx-large;
-}
-
 .h2{
     color: red;
     font-style: italic;
@@ -157,6 +157,89 @@
     width: 60%;
 }
 
+
+@media (max-width: 320px){
+    .header{
+        background-color: blue;
+        background-size: 320px;
+        width: 340px;
+        
+    }
+
+    .h1{
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: white;
+        font-size: large;
+    }
+
+    .menu{
+        background: blue;
+        background-size: 100%;
+        text-align: left;
+        width: 340px;
+    }
+    
+    .menu ul{
+        display: flex;
+        list-style: none;
+        font-size: 1px;
+        transition: 0.5s
+    }
+    
+    .menu ul li a:hover{
+        background-color: black;
+        color: yellow;
+        font-size: large;
+        transition: 0.5s;
+    }
+    
+    
+    .menu ul li{
+        width: 50px;
+        font-size: 1px;
+        align-items: flex-start;
+    }
+    
+    .menu ul li a{
+        text-decoration: none;
+        color: white;
+        font-size: 14px;
+    }
+    
+    .submenu{
+        display: none;
+    }
+    
+    .menu ul li:hover .submenu{
+        display: block;
+        position: absolute;
+        background-color: blue;
+        margin-top: -5px;
+    }
+    
+    .menu ul li:hover .submenu ul{
+        display: block;
+        margin: 10px;
+    }
+    
+    .menu ul li:hover .submenu ul li{
+        width: 170px;
+        padding: 10px;
+        border-bottom: 1px dotted white;
+        background: transparent;
+        border-radius: 0;
+        text-align: center;
+    }
+    
+    .menu ul li:hover .submenu ul li a:hover{
+        color: green;
+        background-color: white;
+        font-size: 25px;
+    }
+
+    
+}
 
 
 
