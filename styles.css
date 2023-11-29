@@ -204,7 +204,7 @@
     .menu ul li a{
         text-decoration: none;
         color: white;
-        font-size: 14px;
+        font-size: 10px;
     }
     
     .submenu{
@@ -236,6 +236,25 @@
         color: green;
         background-color: white;
         font-size: 25px;
+    }
+
+    .table{
+        background-color: black;
+        width: 60%;
+    
+    }
+    
+    .th{
+        background-color: gold;
+    }
+    
+    .td{
+        background-color: lightgoldenrodyellow;
+    }
+    
+    .educationdiv{
+        padding-top: 50px;
+        width: 60%;
     }
 
     
