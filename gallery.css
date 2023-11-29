@@ -43,18 +43,33 @@
 
 .image{
     width: 300px;
-    border-radius: 50%;
+    border-radius: 25px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .div1{
-    float: left;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .div2{
-    float: right;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .div3{
-    float: middle;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 320px){
+    .image{
+        width: 100px;
+        border-radius: 25px;
+        list-style: none;
+    }
+
 }
 
